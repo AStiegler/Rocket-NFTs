@@ -1,0 +1,120 @@
+.sectionTwo {
+    display: flex;
+    background-color:#0e0e0e;
+
+    height: 66rem;
+
+    border-bottom: 1px solid grey;
+
+}
+
+
+
+
+#esq {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    justify-content: flex-start;
+
+    border-right: 1px solid grey ;
+
+    width: 55.1rem;
+}
+
+#esq1 {
+    padding-top: 13.3rem;
+}
+
+#h1sectionTwo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 6.1rem;
+
+color: #FFFFFF;
+}
+
+#h2sectionTwo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+
+color: #5A5757;
+}
+
+#divDireita {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    gap: 7.9rem;
+
+    justify-content: space-between;
+
+}
+
+#divDir {
+    display: flex;
+
+    padding-top: 7.9rem;
+   padding-left: 8rem;
+    padding-bottom: 7.1rem;
+    justify-content: flex-start;
+
+    
+}
+
+#Dirtexto1 {
+    width: 39.1rem;
+    height: 11.5rem;
+
+    padding-left: 6.8rem;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+
+    color: #FFFFFF;
+}
+
+#Dirtexto2 {
+    width: 39.1rem;
+    height: 11.5rem;
+
+    padding-left: 22.6rem;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+
+    color: #FFFFFF;
+}
+
+#loremh1 {
+    padding-top: 6.3rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+#divbanner img {
+    display: flex;
+    
+    height: 31.5rem;
+    width: 100%;
+
+}

@@ -1,0 +1,102 @@
+#sectionOne {
+    background-color: rgb(40, 32, 87);
+    width: 100vw;
+    height: 102.5vh;
+
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.firstsection header {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 5.7rem;
+    padding-left: 8.2rem;
+    padding-right: 8rem;
+}
+
+header #divlogo svg {
+    width: 26.5rem;
+    height: 4.2rem;
+}
+
+header #listamenu {
+    width: 34.1rem;
+   
+}
+
+header #listamenu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    list-style: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+
+    color: var(--text-color);
+}
+
+#buttonHeader {
+    display: flex;
+
+    width: 23rem;
+    height: 5rem;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2rem;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+
+    padding-top: 9rem;
+}
+
+main #h2main {
+    padding-bottom: 5.5rem;
+}
+
+#gallery {
+    padding-top: 10rem;
+}
+
+#gallery img {
+    width: 30.7rem;
+    height: 19.7rem;
+
+    border: 1px solid white;
+}
+
+#gallery1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    padding-bottom: 6rem;
+}
+
+#gallery2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}

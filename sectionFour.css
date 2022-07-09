@@ -1,0 +1,132 @@
+.sectionFour {
+    background-color: #0e0e0e;
+}
+
+#titulosFour {
+    display: flex;
+    flex-direction: row;
+
+    gap: 1.5rem;
+
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 15.1rem;
+}
+
+
+
+#h1secfour {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 6.1rem;
+
+    color: #FFFFFF;
+}
+
+#h1secfour2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 6.1rem;
+
+    color: var(--color-logo);
+}
+
+#cardsFila1, #cardsFila2 {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+
+    padding-top: 12rem;
+}
+
+#card1, #card3, #card4, #card5, #card6 {
+    display: flex;
+
+width: 35rem;
+height: 15rem;
+background: var(--card-color);
+
+gap: 4rem;
+
+align-items: center;
+justify-content: center;
+}
+
+#card2 {
+    display: flex;
+
+    width: 35rem;
+    height: 15rem;
+    background: var(--color-logo);
+    
+    gap: 4rem;
+    
+    align-items: center;
+    justify-content: center;
+}
+#card2 #h2cards {
+    color: #FFFFFF
+}
+
+#cardimg {
+    width: 10rem;
+    height: 10rem;
+
+}
+
+#cardTitulos {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+#h1cards {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.4rem;
+
+    color: #FFFFFF
+}
+
+#h2cards {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight:500;
+    font-size:2rem;
+    line-height:2.4rem;
+
+    color: #FF5B50;
+}
+
+#footerArtistas {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 6.3rem;
+
+}
+
+#footerArtistas #h1FooterArtistas {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.4rem;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+}
